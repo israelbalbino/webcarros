@@ -1,6 +1,6 @@
 import {useEffect} from "react";
 import { Link, useNavigate } from 'react-router-dom';
-import Logo from '../../assets/logo.svg'
+import Logo from '../../assets/logo.png'
 import { Container } from '../../Components/container';
 import Input from '../../Components/Input';
 import {useForm} from 'react-hook-form';
@@ -54,7 +54,8 @@ export default function Login() {
 
 <div className="w-full min-h-screen flex justify-center items-center flex-col gap-4">
 <Link to="/" className="mb-6 max-w-sm w-full">
-<img 
+<img
+
 className="w-full" 
 src={Logo}
 alt="logo do site"
@@ -92,7 +93,7 @@ register={register}
 />
 </div>
 
-<button type="submit" className="items-center w-full bg-zinc-900 rounded-md text-white h-10 font-medium">Acessar</button>
+<button type="submit" className="items-center w-full bg-violet-600 rounded-md text-white h-10 font-medium">Acessar</button>
 </form>
 
 <Link  to="/register">

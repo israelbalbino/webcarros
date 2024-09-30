@@ -1,6 +1,6 @@
 import {useEffect,useContext} from "react";
 import { Link,useNavigate } from 'react-router-dom';
-import Logo from '../../assets/logo.svg'
+import Logo from '../../assets/logo.png'
 import { Container } from '../../Components/container';
 import Input from '../../Components/Input';
 import {useForm} from 'react-hook-form';
@@ -111,7 +111,7 @@ register={register}
 />
 </div>
 
-<button type="submit" className="items-center w-full bg-zinc-900 rounded-md text-white h-10 font-medium">Cadastrar</button>
+<button type="submit" className="items-center w-full bg-violet-600 rounded-md text-white h-10 font-medium">Cadastrar</button>
 </form>
 
 <Link  to="/login">

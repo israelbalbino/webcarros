@@ -189,7 +189,7 @@ async function handleDeleteImage(item: ImagemItemProps){
        >
 
         <div className="mb-3">
-          <p className="mb-2 font-medium">Nome do carro</p>
+          <p className="mb-2 font-medium">Nome do veículo</p>
           <Input
           type="text"
           register={register}
@@ -201,7 +201,7 @@ async function handleDeleteImage(item: ImagemItemProps){
         </div>
 
         <div className="mb-3">
-          <p className="mb-2 font-medium">Modelo do carro</p>
+          <p className="mb-2 font-medium">Modelo do veículo</p>
           <Input
           type="text"
           register={register}
@@ -298,7 +298,7 @@ async function handleDeleteImage(item: ImagemItemProps){
           
         </div>
 
-        <button type="submit" className="w-full rounded-md bg-zinc-900 text-white font-medium h-10">
+        <button type="submit" className="w-full rounded-md bg-violet-600 text-white font-medium h-10">
          Cadastrar
         </button>
 
